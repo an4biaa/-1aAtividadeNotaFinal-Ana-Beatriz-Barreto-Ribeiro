@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin: 0;
+        color: #E5989B;
+    }
+    tr:first-child {
+            background-color: #E5989B;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+    }
+    tr:nth-child(even) {
+            background-color: ghostwhite;
+        }
+    table{
+       margin: auto;
+    }
+</style>
+<body>
+    <h1>Tabela de Produtos</h1>
+    <table border="1" width="500" cellspacing="0" cellpadding="5" bordercolor="#FFB4A2">
+        <tr>
+        <td>Produto</td>
+        <td>Descrição</td>
+        <td>Preço <br>
+        (R$)</td>
+        </tr>
+        <tr>
+        <td>Boneco Peppa</td>
+        <td>Boneca Peppa Pig - 13 Cm - Articulada - F6158 - Hasbro</td>
+        <td>49,99</td>
+        </tr>
+        <tr>
+        <td>Boneco Shopito</td>
+        <td>Shopito de Pelúcia</td>
+        <td>65,90</td>
+        </tr>
+        <tr>
+        <td>Boneco Max Steel</td>
+        <td>Boneco Max Steel - anos 90</td>
+        <td>46,00</td>
+        </tr>
+        <tr>
+        <td>Boneco Snoopy</td>
+        <td>Fandom Box Peanuts - Boneco Snoopy - 3314 - Lider</td>
+        <td>89,99</td>
+        </tr>
+        <tr>
+        <td>Funko Pop Ariana Grande</td>
+        <td>Ariana Grande - Positions - Escultura customizada de Funko Pop Artesanal 3D</td>
+        <td>139,90</td>
+        </tr>
+</body>
+</html>
