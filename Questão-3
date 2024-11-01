@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+</head>
+<style>
+       body, html {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
 
+        .form-container {
+            width: 300px;
+            padding: 20px;
+            background-color: ghostwhite;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            color: #E5989B;
+            margin-bottom: 20px;
+            font-size: 23px;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px solid lightgray;
+            border-radius: 12px;
+            font-size: 15px;
+            color: black;
+        }
+
+        .form-container textarea {
+            resize: none;
+            height: 90px;
+        }
+
+    button {
+            width: 100%;
+            padding: 10px;
+            background-color: #E5989B;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+</style>
+<body>
+   <div class="form-container">
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nome" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <textarea placeholder="Sua mensagem..." required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+</body>
+</html>
