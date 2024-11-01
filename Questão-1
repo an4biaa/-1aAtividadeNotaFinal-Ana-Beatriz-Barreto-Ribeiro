@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: ghostwhite;
+        margin: 20px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        height: 80vh;
+    }
+    .box-model {
+        width: 400px;
+        padding: 20px;
+        border: 3px solid #E5989B;
+        margin: 30px;
+        background-color: white;
+        border-radius: 2%;
+        margin: auto;
+    }
+    h1{
+        font-size: 24px;
+        margin: 0;
+        text-align: center;
+        color: #E5989B;
+    }
+    p {
+        font-size: 17px;
+        margin: 10px 0;
+        color: gray;
+        text-align: justify;
+    }
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: #80808079;
+      text-align: center;
+    }
+    .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; 
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px; 
+            margin-top: -65px;
+            border: 3px solid #E5989B;
+        }
+</style>
+<body>
+    <div class="box-model">
+        <img src="bia.jpg" alt="Foto de perfil" class="profile-pic">
+        <h1>Ana Beatriz Barreto</h1>
+        <h2>202402717855</h2>
+        <p>Olá, meu nome é Ana Beatriz Barreto Ribeiro e eu curso Ciência da Computação na Estácio, no turno da manhã. Meu objetivo profissional é trabalhar em uma área da tecnologia em que eu me identifique e goste.</p>
+    </div>
+</body>
+</html>
